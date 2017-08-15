@@ -53,5 +53,5 @@ case "$1" in
 		Stop_nginx && Start_nginx
 		;;
 	*)
-		echo "Usage:$1 {start|stop|reload}"
+		echo "Usage:$1 {start|stop|reload|restart}"
 esac
