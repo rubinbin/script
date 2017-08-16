@@ -12,9 +12,9 @@ if [ $# -ne 1 ]
 fi
 
 
-http=$(curl -o /dev/null -sL $1 -w "%{http_code}\n" | egrep "200" | wc -l)
+http=$(curl -o /dev/null -sL $1 -w "%{http_code}")
 
-if [ $http -eq 1 ]
+if [ $http -eq 200 ]
    then
      msg "$1 链接正常"
    else
