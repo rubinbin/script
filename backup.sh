@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#备份web下面的站点，根据传参的参数，做出相应动作
+
 date=$(date +%F)
 date2=$(date +%Y\/%m\/%d)
 Ddate=$(date -d '-$2 day' +%Y\/%m\/%d &>/dev/null)
