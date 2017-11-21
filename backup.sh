@@ -82,5 +82,5 @@ case "$1" in
         -f) option_f ;;
         -n) option_n $2 ;;
         -d) option_d ;;
-		*)  option_h ;;
+	 *)  option_h ;;
 esac
